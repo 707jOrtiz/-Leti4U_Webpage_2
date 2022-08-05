@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    background-color: cyan;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li { 
+    margin: 1.5em 1em 1em 1em; 
+    font-weight: 800;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: rgb(189, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Cover page */
+
+#squad {
+    display: block;
+    margin: 0 auto 0 auto;
+    height: auto;
+    width: 80%;
+}
+
+
+/* Section 2 */
+
+.container {
+    display: flex;
+}
+
+.break {
+    padding: 30px;
+    background-color: rgb(189, 255, 255);
+    text-align: center;
+}
+
+#cover {
+    height: auto;
+    width: 100%;
+}
+
+/* Gallery pictures */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5em;
+}
+
+#beforeAfter {    
+    height: auto;
+    width: 25%;
+}
+
+#flexing {    
+    height: auto;
+    width: 25%;
+    border: solid black 1px;
+}
+
+.contact {
+    padding: 30px;
+    background-color: rgb(189, 255, 255);
+    text-align: center;
+}
